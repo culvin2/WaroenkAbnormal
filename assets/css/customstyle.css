@@ -1,0 +1,93 @@
+.action {
+	width: 150px;
+}
+
+.btn-nav {
+	display: block;
+	padding: 1rem 0rem;
+}
+
+td * {
+	vertical-align: middle;
+}
+
+.mandatory {
+	color: #ff3131;
+}
+
+.login-image {
+	background-image: url(../img/undraw_powerful_26ry.svg);
+	background-position: center;
+	background-size: cover;
+}
+
+.card-product-grid {
+	margin-bottom: 20px;
+	transition: all 0.2s ease-out;
+}
+
+.card-product-grid:hover {
+	box-shadow: 0px 0px 15px #cacaca;
+}
+
+.card-product-grid::after {
+	transition: all 0.2s ease-out;
+}
+
+.card-product-grid .img-wrap {
+	border-radius: 0.2rem 0.2rem 0 0;
+	height: 10rem;
+	background-position: center;
+	background-size: cover;
+}
+
+.card-product-grid .card-body {
+	padding: 0.8em;
+}
+
+.text-menu {
+	color: #4167D5;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1em;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.text-price {
+	font-weight: 800;
+	font-size: 14px;
+	font-style: italic;
+	color: #FA591D;
+	/* margin-bottom: -5px; */
+}
+
+.text-discount {
+	margin-top: 5px;
+	margin-bottom: -5px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px) {
+	.action {
+		width: 20px;
+	}
+
+	.card-product-grid .img-wrap {
+		height: 15rem;
+	}
+}
+
+.disabled {
+	pointer-events: none;
+	cursor: default;
+	opacity: 0.6;
+}
